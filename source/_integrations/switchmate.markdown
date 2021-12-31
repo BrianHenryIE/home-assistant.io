@@ -26,7 +26,7 @@ switch:
 
 {% configuration %}
 mac:
-  description: Device MAC address.
+  description: Device MAC address. This can be found in the Switchmate app under "Device Info", "Bluetooth MAC Address". If that field is absent, upgrade the firmware on your device.
   required: true
   type: string
 name:
